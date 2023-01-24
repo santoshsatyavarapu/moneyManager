@@ -1,0 +1,136 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  width: 90vw;
+  max-width: 500px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+.money-details-image {
+  height: 50px;
+  margin: 5px;
+}
+
+.heading {
+  font-size: 15px;
+  color: #7e858e;
+}
+.money-details {
+  font-size: 23px;
+  color: #1e293b;
+}
+
+.balance-container {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 80vw;
+  border-width: 2px;
+  border-style: solid;
+  font-family: 'Roboto';
+  margin: 5px;
+}
+.income-container {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 80vw;
+  border-width: 2px;
+  border-style: solid;
+  font-family: 'Roboto';
+  margin: 5px;
+}
+.expenses-container {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  width: 80vw;
+  border-width: 2px;
+  border-style: solid;
+  font-family: 'Roboto';
+  margin: 5px;
+}
+
+@media (min-width: 768px) {
+  .money-details-container {
+    display: flex;
+    width: 90vw;
+    max-width: 900px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+  }
+  .balance-container {
+    background-color: #ecfccb;
+    border-color: #84cc16;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 220px;
+    border-width: 2px;
+    border-style: solid;
+    font-family: 'Roboto';
+  }
+  .income-container {
+    background-color: #cffafe;
+    border-color: #06b6d4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 220px;
+    border-width: 2px;
+    border-style: solid;
+    font-family: 'Roboto';
+  }
+  .expenses-container {
+    background-color: #ede9fe;
+
+    border-color: #7c3aed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 220px;
+    border-width: 2px;
+    border-style: solid;
+    font-family: 'Roboto';
+  }
+}

@@ -1,0 +1,184 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: white;
+  font-family: 'Roboto';
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+label {
+  display: flex;
+  flex-direction: column;
+}
+.form-heading {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+input {
+  padding: 5px;
+  width: 70vw;
+  max-width: 450px;
+  border-color: #d7dfe9;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+select {
+  width: 70vw;
+  max-width: 450px;
+  border-color: #d7dfe9;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+option {
+  width: 70vw;
+  max-width: 450px;
+  border-color: #d7dfe9;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px;
+  border-radius: 1px;
+}
+span {
+  color: #0b69ff;
+  font-weight: bold;
+}
+.para {
+  color: #7e858e;
+}
+.form-container {
+  border-radius: 20px;
+  border-color: #d7dfe9;
+  border-style: solid;
+  border-width: 1px;
+  padding: 20px;
+  width: 80vw;
+  max-width: 500px;
+  margin-bottom: 10px;
+}
+.transactions-container {
+  border-radius: 20px;
+  border-color: #d7dfe9;
+  border-style: solid;
+  border-width: 1px;
+  padding: 20px;
+  width: 80vw;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+li {
+  list-style: none;
+  padding-left: 0px;
+}
+ul {
+  padding-left: 0px;
+  margin-top: 0px;
+}
+.table-heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-color: #d7dfe9;
+  border-style: solid;
+  border-width: 1px;
+  padding: 7px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.last-container {
+  display: flex;
+  flex-direction: column;
+}
+.table-column {
+  width: 60px;
+  font-size: 10px;
+  margin: 2px;
+}
+button {
+  background-color: #0b69ff;
+  width: 90px;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+.title-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  width: 80vw;
+  max-width: 500px;
+  background-size: cover;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .title-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+    width: 90vw;
+    max-width: 900px;
+    background-size: cover;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .last-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    max-width: 900px;
+  }
+  input {
+    padding: 5px;
+    width: 260px;
+  }
+  select {
+    width: 260px;
+  }
+  option {
+    width: 260px;
+    max-width: 260;
+  }
+  .form-container {
+    border-radius: 20px;
+    border-color: #d7dfe9;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .transactions-container {
+    border-radius: 20px;
+    border-color: #d7dfe9;
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    width: 50vw;
+    max-width: 550px;
+  }
+  .table-column {
+    width: 130px;
+    font-size: 15px;
+  }
+}
